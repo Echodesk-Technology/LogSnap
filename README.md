@@ -25,14 +25,10 @@
 
 ##  Features
 
-- Create Issues
-- Create Notes
-- Create Todos
-- View Issues
+- CRUD Issues
+- CRUD Notes
+- CRUD Todos
 - Comment - coming soon
-- Update Issues
-- Delete Issues
-- Isuue Labels
 
 ------
 
