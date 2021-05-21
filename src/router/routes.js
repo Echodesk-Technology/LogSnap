@@ -16,6 +16,18 @@ const routes = [
     }
   },
   {
+    path: "/signup",
+    beforeEnter() {
+      location.href = "https://dashboard.logsnap.app/signup";
+    },
+  },
+  {
+    path: "/login",
+    beforeEnter() {
+      location.href = "https://dashboard.logsnap.app/login";
+    },
+  },
+  {
     path: "/about",
     name: "About",
     component: About,

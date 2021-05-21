@@ -44,11 +44,11 @@
             <button
               class="focus:outline-none text-gray-500 font-medium hover:text-main-normal"
             >
-              <a class="focus:outline-none text-gray-500 font-medium hover:text-main-normal" href="https://logsnap.app/login"> Log in </a>
+              <a class="focus:outline-none text-gray-500 font-medium hover:text-main-normal" href="https://dashboard.logsnap.app/login"> Log in </a>
             </button>
           </div>
           <div class="s-btn-con">
-            <a href="https://logsnap.app/signup" class="focus:outline-none bg-main-color text-white font-medium px-4 py-1 rounded hover:opacity-80">
+            <a href="https://dashboard.logsnap.app/signup" class="focus:outline-none bg-main-color text-white font-medium px-4 py-1 rounded hover:opacity-80">
               Sign Up
             </a>
           </div>
@@ -72,10 +72,10 @@
         </div>
         <div class="mb-btn-con flex items-center space-x-2">
           <div class="mb-lg-btn">
-              <a class="focus:outline-none text-gray-500 font-medium hover:text-main-normal" href="https://logsnap.app/login"> Log in </a>
+              <a class="focus:outline-none text-gray-500 font-medium hover:text-main-normal" href="https://dashboard.logsnap.app/login"> Log in </a>
           </div>
           <div class="s-btn-con">
-            <a href="https://logsnap.app/signup" class="focus:outline-none bg-main-color text-white px-2 py-1 rounded hover:opacity-80">
+            <a href="https://dashboard.logsnap.app/signup" class="focus:outline-none bg-main-color text-white px-2 py-1 rounded hover:opacity-80">
             Sign Up
             </a>
           </div>
