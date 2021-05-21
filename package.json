@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build && npm run lint",
-    "lint": "vue-cli-service lint"
+    "build": "npm run lint && vue-cli-service build",
+    "lint": "vue-cli-servi ce lint"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
