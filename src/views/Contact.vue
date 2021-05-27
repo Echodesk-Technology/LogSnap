@@ -1,18 +1,18 @@
 <template>
-    <div>
-        <Layout>
-        <div id="page-contact" class="pt-16">
-            <h1>Contact</h1>
-        </div>
-        </Layout>
-    </div>
+  <div>
+    <Layout>
+      <div id="page-contact" class="pt-16">
+        <h1>Contact</h1>
+      </div>
+    </Layout>
+  </div>
 </template>
 <script>
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
 export default {
-    name: "Contact",
-    components: {
-        Layout
-    }
-}
+  name: "Contact",
+  components: {
+    Layout,
+  },
+};
 </script>

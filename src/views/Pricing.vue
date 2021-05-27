@@ -4,8 +4,10 @@
       <div id="page-pricing" class="pt-16 border-0">
         <div class="pring-main">
           <div class="pricing-hd">
-            <div class="pricing-hd-txt bg-main-dark border-0 text-white pt-6 p-3">
-              <h1 class="text-xl  text-gray-300 font-bold text-center">
+            <div
+              class="pricing-hd-txt bg-main-dark border-0 text-white pt-6 p-3"
+            >
+              <h1 class="text-xl text-gray-300 font-bold text-center">
                 PRICING
               </h1>
               <h1 class="text-5xl font-bold mt-5 text-center">
@@ -14,12 +16,26 @@
               <p class="text-gray-100 mt-2 text-center">Choose a plan.</p>
               <div class="pricing-card-con">
                 <div
-                  class="pricing-cards flex justify-center items-center flex-row animate-reveal"
+                  class="
+                    pricing-cards
+                    flex
+                    justify-center
+                    items-center
+                    flex-row
+                    animate-reveal
+                  "
                 >
                   <div class="pricing bg-white rounded mt-5 w-3/12 h-full">
                     <div class="card-tp p-3">
                       <div
-                        class="card-tp-txt bg-main-light px-3 py-0 rounded-lg w-16"
+                        class="
+                          card-tp-txt
+                          bg-main-light
+                          px-3
+                          py-0
+                          rounded-lg
+                          w-16
+                        "
                       >
                         <h3 class="text-lg text-main-dark font-bold">Free</h3>
                       </div>
@@ -30,7 +46,13 @@
                       </h1>
                     </div>
                     <div
-                      class="card-btm bg-gray-100 mt-3 rounded-b border-t border-gray-200"
+                      class="
+                        card-btm
+                        bg-gray-100
+                        mt-3
+                        rounded-b
+                        border-t border-gray-200
+                      "
                     >
                       <div class="card-btm-align flex items-center p-3">
                         <ul>
@@ -63,10 +85,19 @@
                         <div class="s-btn-con p-2 mt-3 pb-3">
                           <router-link to="/signup">
                             <button
-                              class="py-2 focus:outline-none bg-main-color text-white text-lg font-medium w-full rounded hover:opacity-80"
+                              class="
+                                py-2
+                                focus:outline-none
+                                bg-main-color
+                                text-white text-lg
+                                font-medium
+                                w-full
+                                rounded
+                                hover:opacity-80
+                              "
                               @click="getPlan()"
                             >
-                              Sign  Up
+                              Sign Up
                             </button>
                           </router-link>
                         </div>
@@ -76,9 +107,18 @@
                   <div class="pricing bg-white rounded mt-5 w-3/12 h-full ml-5">
                     <div class="card-tp p-3">
                       <div
-                        class="card-tp-txt bg-main-light px-3 py-0 rounded-lg w-24"
+                        class="
+                          card-tp-txt
+                          bg-main-light
+                          px-3
+                          py-0
+                          rounded-lg
+                          w-24
+                        "
                       >
-                        <h3 class="text-lg text-main-dark font-bold">Premium</h3>
+                        <h3 class="text-lg text-main-dark font-bold">
+                          Premium
+                        </h3>
                       </div>
                     </div>
                     <div class="card-price px-4 mt-1">
@@ -87,7 +127,13 @@
                       </h1>
                     </div>
                     <div
-                      class="card-btm bg-gray-100 mt-3 rounded-b border-t border-gray-200"
+                      class="
+                        card-btm
+                        bg-gray-100
+                        mt-3
+                        rounded-b
+                        border-t border-gray-200
+                      "
                     >
                       <div class="card-btm-align flex items-center p-3">
                         <ul>
@@ -120,7 +166,16 @@
                         <div class="s-btn-con p-2 mt-3 pb-3">
                           <router-link to="/signup">
                             <button
-                              class="py-2 focus:outline-none bg-main-color text-white text-lg font-medium w-full rounded hover:opacity-80"
+                              class="
+                                py-2
+                                focus:outline-none
+                                bg-main-color
+                                text-white text-lg
+                                font-medium
+                                w-full
+                                rounded
+                                hover:opacity-80
+                              "
                               @click="setPlan()"
                             >
                               Sign Up
@@ -150,21 +205,21 @@ export default {
     return {
       plan: "",
       freePricings: [
-        {title: "Up to 10 users", id: "1" },
-        {title: "5 projects", id: "2" },
-        {title: "1 GB of storage", id: "3" },
+        { title: "Up to 10 users", id: "1" },
+        { title: "5 projects", id: "2" },
+        { title: "1 GB of storage", id: "3" },
         // {title: "Integrations", id: "4" },
-        {title: "Custom fields", id: "5" },
-        {title: "API and Webhook access", id: "6" },
+        { title: "Custom fields", id: "5" },
+        { title: "API and Webhook access", id: "6" },
       ],
       standardPricings: [
-        {title: "Unlimited users", id: "1" },
-        {title: "Unlimited projects", id: "2" },
-        {title: "30 GB of storage", id: "3" },
+        { title: "Unlimited users", id: "1" },
+        { title: "Unlimited projects", id: "2" },
+        { title: "30 GB of storage", id: "3" },
         // {title: "Integrations", id: "4" },
-        {title: "Custom fields", id: "5" },
-        {title: "Custom domain", id: "6" },
-        {title: "API and Webhook access", id: "7" },
+        { title: "Custom fields", id: "5" },
+        { title: "Custom domain", id: "6" },
+        { title: "API and Webhook access", id: "7" },
         // {title: "Import and export", id: "8" },
       ],
     };

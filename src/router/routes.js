@@ -12,8 +12,8 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      title: "LogSnap | Issue Tracking"
-    }
+      title: "LogSnap | Issue Tracking",
+    },
   },
   {
     path: "/signup",
@@ -32,50 +32,50 @@ const routes = [
     name: "About",
     component: About,
     meta: {
-      title: "About | LogSnap"
-    }
+      title: "About | LogSnap",
+    },
   },
   {
     path: "/contact",
     name: "Contact",
     component: Contact,
     meta: {
-      title: "Contact | LogSnap"
-    }
+      title: "Contact | LogSnap",
+    },
   },
   {
     path: "/features",
     name: "Features",
     component: Features,
     meta: {
-      title: "Features | LogSnap"
-    }
+      title: "Features | LogSnap",
+    },
   },
   {
     path: "/pricing",
     name: "Pricing",
     component: Pricing,
     meta: {
-      title: "Pricing | LogSnap"
-    }
+      title: "Pricing | LogSnap",
+    },
   },
   {
     path: "/:pathMatch(.*)*",
     component: NotFound,
     meta: {
-      title: "404 | Not Found"
-    }
-  }
+      title: "404 | Not Found",
+    },
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(),
-  linkActiveClass: 'is-active',
-  linkExactActiveClass: 'exact-active',
+  linkActiveClass: "is-active",
+  linkExactActiveClass: "exact-active",
   routes,
 });
 
-router.afterEach(to => {
+router.afterEach((to) => {
   document.title = to.meta.title;
 });
 

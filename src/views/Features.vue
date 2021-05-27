@@ -1,18 +1,18 @@
 <template>
-    <div>
-        <Layout>
-        <div id="page-features" class="pt-16">
-            <h1>Features</h1>
-        </div>
-        </Layout>
-    </div>
+  <div>
+    <Layout>
+      <div id="page-features" class="pt-16">
+        <h1>Features</h1>
+      </div>
+    </Layout>
+  </div>
 </template>
 <script>
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
 export default {
-    name: "Features",
-    components: {
-        Layout
-    }
-}
+  name: "Features",
+  components: {
+    Layout,
+  },
+};
 </script>

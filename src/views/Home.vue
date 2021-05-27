@@ -5,10 +5,18 @@
         <section id="sec-one" class="bg-color">
           <div class="hero-text pt-10">
             <h1 class="text-4xl text-black text-center font-bold">
-              Simple Issue Tracking Tool
+              Personal Productivity Tool
             </h1>
             <p
-              class="text-gray-dim font-normal text-xl pl-40 pr-40 text-center mt-3"
+              class="
+                text-gray-dim
+                font-normal
+                text-xl
+                pl-40
+                pr-40
+                text-center
+                mt-3
+              "
             >
               LogSnap helps you track bugs, tasks and issues. It's effortlessly
               simple.
@@ -16,7 +24,24 @@
           </div>
           <div class="demo-btn" ref="demoBtn">
             <button
-              class="demo-btn-con focus:outline-none outline-none flex items-center justify-center mt-5 rounded-2xl hover:bg-white animate-pulse hover:animate-spin hover:shadow-lg w-40 ml-auto mr-auto p-2"
+              class="
+                demo-btn-con
+                focus:outline-none
+                outline-none
+                flex
+                items-center
+                justify-center
+                mt-5
+                rounded-2xl
+                hover:bg-white
+                animate-pulse
+                hover:animate-spin
+                hover:shadow-lg
+                w-40
+                ml-auto
+                mr-auto
+                p-2
+              "
             >
               <div class="demo-play-icon">
                 <svg
@@ -33,7 +58,13 @@
                 </svg>
               </div>
               <button
-                class="text-main-normal ml-1 focus:outline-none outline-none text-lg"
+                class="
+                  text-main-normal
+                  ml-1
+                  focus:outline-none
+                  outline-none
+                  text-lg
+                "
               >
                 Watch Demo
               </button>
@@ -62,7 +93,12 @@
               </h1>
             </div>
             <div
-              class="features-list-con flex flex-row justify-around items-center"
+              class="
+                features-list-con
+                flex flex-row
+                justify-around
+                items-center
+              "
             >
               <div class="feature-list">
                 <div class="features flex flex-row items-center pb-5 pt-5">
@@ -91,9 +127,7 @@
                     />
                   </div>
                   <div class="feature ml-3">
-                    <h1 class="text-lg text-black font-bold">
-                      Assign Tasks
-                    </h1>
+                    <h1 class="text-lg text-black font-bold">Assign Tasks</h1>
                     <p class="text-gray-dim font-normal">
                       Assign issues to user's in your workspace.
                     </p>
@@ -115,9 +149,7 @@
                     </svg>
                   </div>
                   <div class="feature ml-3">
-                    <h1 class="text-lg text-black font-bold">
-                      Works Offline
-                    </h1>
+                    <h1 class="text-lg text-black font-bold">Works Offline</h1>
                     <p class="text-gray-dim font-normal">
                       Access files without internet access.
                     </p>
@@ -141,9 +173,7 @@
                     </svg>
                   </div>
                   <div class="feature ml-3">
-                    <h1 class="text-lg text-black font-bold">
-                      File Sharing
-                    </h1>
+                    <h1 class="text-lg text-black font-bold">File Sharing</h1>
                     <p class="text-gray-dim font-normal">
                       Simply share files in your workplace.
                     </p>
@@ -167,7 +197,7 @@
             </svg>
           </div>
         </section>
-        <section id="sec-three" class="sec-three-con">
+        <!-- <section id="sec-three" class="sec-three-con">
           <div class="sec-three-header text-center p-5">
             <div class="txt-hd pb-6">
               <h1 class="text-gray-800 text-2xl font-bold text-center">
@@ -175,7 +205,14 @@
               </h1>
             </div>
             <div
-              class="comp-logos-row flex flex-row justify-around items-center mb-3 mt-6"
+              class="
+                comp-logos-row
+                flex flex-row
+                justify-around
+                items-center
+                mb-3
+                mt-6
+              "
             >
               <div>
                 <svg
@@ -283,7 +320,14 @@
               </div>
             </div>
             <div
-              class="comp-logos-row flex flex-row justify-around items-center mb-3 mt-6"
+              class="
+                comp-logos-row
+                flex flex-row
+                justify-around
+                items-center
+                mb-3
+                mt-6
+              "
             >
               <div>
                 <svg
@@ -370,9 +414,9 @@
               ></path>
             </svg>
           </div>
-        </section>
+        </section> -->
         <section id="sec-four" class="sec-four bg-white">
-          <div class="sec-f-card  p-4">
+          <div class="sec-f-card p-4">
             <div class="sec-f-txt">
               <h1 class="text-gray-800 text-center text-lg font-bold">
                 Join 20,000+ others using LogSnap and never miss news tips and
@@ -382,18 +426,47 @@
             <div class="flex justify-center mt-6 mb-10">
               <div class="bg-main-normal rounded-md">
                 <div
-                  class="input-card w-full flex flex-wrap justify-between md:flex-row"
+                  class="
+                    input-card
+                    w-full
+                    flex flex-wrap
+                    justify-between
+                    md:flex-row
+                  "
                 >
                   <input
                     type="email"
                     name="email"
                     id="email"
-                    class="bg-main-normal w-full m-1 px-3 p-2 appearance-none text-white text-sm focus:outline-none outline-none focus:placeholder-transparent placeholder-white"
+                    class="
+                      bg-main-normal
+                      w-full
+                      m-1
+                      px-3
+                      p-2
+                      appearance-none
+                      text-white text-sm
+                      focus:outline-none
+                      outline-none
+                      focus:placeholder-transparent
+                      placeholder-white
+                    "
                     placeholder="Enter your email"
                     aria-label="Enter your email"
                   />
                   <button
-                    class="w-full m-1 p-2 px-3 text-white text-sm bg-main-dark rounded font-semibold outline-none focus:outline-none"
+                    class="
+                      w-full
+                      m-1
+                      p-2
+                      px-3
+                      text-white text-sm
+                      bg-main-dark
+                      rounded
+                      font-semibold
+                      outline-none
+                      focus:outline-none
+                    "
                   >
                     Subscribe
                   </button>

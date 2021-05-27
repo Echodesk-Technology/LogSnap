@@ -1,11 +1,18 @@
 <template>
   <div>
-    <header
-      class="ds-nav bg-color fixed z-50  top-0 w-full"
-      ref="dsNav"
-    >
+    <header class="ds-nav bg-color fixed z-50 top-0 w-full" ref="dsNav">
       <nav
-        class="ds-nav-con flex  flex-row items-center justify-between space-mb-sides py-4 px-4 ml-auto mr-auto"
+        class="
+          ds-nav-con
+          flex flex-row
+          items-center
+          justify-between
+          space-mb-sides
+          py-4
+          px-4
+          ml-auto
+          mr-auto
+        "
       >
         <div class="logo-img">
           <router-link to="/">
@@ -21,7 +28,14 @@
             <li
               v-for="link in links"
               :key="link.name"
-              class="li-link text-gray-500 text-sm font-medium hover:text-main-normal ml-5 mr-5"
+              class="
+                li-link
+                text-gray-500 text-sm
+                font-medium
+                hover:text-main-normal
+                ml-5
+                mr-5
+              "
             >
               <router-link :to="link.path">{{ link.name }}</router-link>
             </li>
@@ -42,13 +56,40 @@
         <div class="mb-btn-con flex items-center space-x-2">
           <div class="mb-lg-btn">
             <button
-              class="focus:outline-none text-gray-500 font-medium hover:text-main-normal"
+              class="
+                focus:outline-none
+                text-gray-500
+                font-medium
+                hover:text-main-normal
+              "
             >
-              <a class="focus:outline-none text-gray-500 font-medium hover:text-main-normal" href="https://dashboard.logsnap.app/login"> Log in </a>
+              <a
+                class="
+                  focus:outline-none
+                  text-gray-500
+                  font-medium
+                  hover:text-main-normal
+                "
+                href="https://dashboard.logsnap.app/login"
+              >
+                Log in
+              </a>
             </button>
           </div>
           <div class="s-btn-con">
-            <a href="https://dashboard.logsnap.app/signup" class="focus:outline-none bg-main-color text-white font-medium px-4 py-1 rounded hover:opacity-80">
+            <a
+              href="https://dashboard.logsnap.app/signup"
+              class="
+                focus:outline-none
+                bg-main-color
+                text-white
+                font-medium
+                px-4
+                py-1
+                rounded
+                hover:opacity-80
+              "
+            >
               Sign Up
             </a>
           </div>
@@ -58,7 +99,15 @@
 
     <header class="mb-nav fixed top-0 w-full z-50 bg-white">
       <nav
-        class="flex flex-row justify-between items-center p-2 space-mb-sides mt-2 add-border"
+        class="
+          flex flex-row
+          justify-between
+          items-center
+          p-2
+          space-mb-sides
+          mt-2
+          add-border
+        "
         ref="mbNav"
       >
         <div class="logo-img">
@@ -72,11 +121,32 @@
         </div>
         <div class="mb-btn-con flex items-center space-x-2">
           <div class="mb-lg-btn">
-              <a class="focus:outline-none text-gray-500 font-medium hover:text-main-normal" href="https://dashboard.logsnap.app/login"> Log in </a>
+            <a
+              class="
+                focus:outline-none
+                text-gray-500
+                font-medium
+                hover:text-main-normal
+              "
+              href="https://dashboard.logsnap.app/login"
+            >
+              Log in
+            </a>
           </div>
           <div class="s-btn-con">
-            <a href="https://dashboard.logsnap.app/signup" class="focus:outline-none bg-main-color text-white px-2 py-1 rounded hover:opacity-80">
-            Sign Up
+            <a
+              href="https://dashboard.logsnap.app/signup"
+              class="
+                focus:outline-none
+                bg-main-color
+                text-white
+                px-2
+                py-1
+                rounded
+                hover:opacity-80
+              "
+            >
+              Sign Up
             </a>
           </div>
           <div class="mb-icon-menu flex items-center cursor-pointer">
